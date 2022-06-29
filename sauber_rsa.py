@@ -70,8 +70,8 @@ def find_e(t, n):
     f_t = factors(t)
     f_n = factors(n)
     for i in range(2, t):
-
-        if if_coprime(i, n) and if_coprime(i, t) and t % i != 0 and n % i != 0:
+        #if_coprime(i, n) and
+        if if_coprime(i, t) and t % i != 0 and n % i != 0:
             candidates.append(i)
 
     return candidates[0]
