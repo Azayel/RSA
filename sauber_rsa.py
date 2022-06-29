@@ -78,6 +78,7 @@ def find_e(t, n):
 
 # Function to Calculate private key part D
 # Returns first candidate D
+#Calculate d to statsify (e*d) % t=1 
 
 
 def find_d(e, t):
